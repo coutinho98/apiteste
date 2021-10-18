@@ -3,9 +3,9 @@ import Aluno from '../models/Aluno';
 class Home {
   async index(req, res) {
     const novoAluno = await Aluno.create( { 
-      nome: "Gabriel",
-      sobrenome: 'Toledo',
-      email: 'bestawpercalvo@gmail.com',
+      nome: "Mateus",
+      sobrenome: 'Couto',
+      email: 'mateuscouto98@outlook.com',
       idade: 40,
       peso: 93,
       altura: 1.80
