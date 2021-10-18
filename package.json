@@ -11,14 +11,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cli": "^1.0.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.2",
     "nodemon": "^2.0.13",
+    "sequelize": "^6.7.0",
+    "sequelize-cli": "^6.2.0",
     "sucrase": "^3.20.2"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mariadb": "^2.5.4"
   }
 }
